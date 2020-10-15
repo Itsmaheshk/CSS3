@@ -1,3 +1,35 @@
-.body{
-background-color: aliceblue;
+
+/* We have 3 types of CSS selectors 1.class 2.ID 3.Element  */
+
+/* class selector is defined using dot(.) */
+.div{                            
+    background-color: lightslategray;
+}
+/* ID selector is defined using hash(#) */
+#p1{
+    color: red;
+    background-color: rosybrown;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#p2{
+    color: green;
+    background-color: rosybrown;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#p3{
+    color : blue;
+    background-color: rosybrown;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+/* Element selectors are defined without using anyhing but just their name */
+body{
+    background-color: cornflowerblue;
 }
